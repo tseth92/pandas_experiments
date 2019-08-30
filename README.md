@@ -1,6 +1,6 @@
 # pandas_experiments
 this repository contains pandas experiment where different pandas apis are checked for speed, performance or just functionality
-#### pandas_iterator.py
+### pandas_iterator.py
 1) Just run as python3 pandas_iterator.py. 
 2) It shows the runtimes for 5000000 elements dataframe . 
 3) A simple code was run in which for all the rows, if multiple of 5 is found , it is doubled
@@ -9,7 +9,7 @@ this repository contains pandas experiment where different pandas apis are check
 
 **Important**: But you should almost always consider apply or list comprehensions as they are the fastest.
 
-#### pandas_loc_iloc.py
+### pandas_loc_iloc.py
 1) Just run python3 pandas_loc_iloc.py
 2) It shows the difference between loc and iloc functionality in pandas
 3) While iloc requires the column in terms of numbers, loc requires the column actual labels. Moreover, iloc ignores slice last index included, loc includes ie. [2:4] : iloc ignores 3rd row/column(4 means third row) whereas loc doesn't
