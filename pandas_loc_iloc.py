@@ -1,8 +1,13 @@
 '''
 This code compares the loc and iloc in pandas dataframe
 '''
+
+__author__ = "Tushar SEth"
+__email__  = "tusharseth93@gmail.com"
+
 import pandas as pd
 import timeit
+
 df_test = pd.DataFrame()
 tlist = []
 tlist2 = []
