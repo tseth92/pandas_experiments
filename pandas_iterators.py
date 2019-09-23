@@ -5,6 +5,10 @@ Then a comparison of different iterators is done in different methods.
 Each code checks for the multiple of 5 in B column and doubles it if it 
 is found
 '''
+
+__author__ = "Tushar SEth"
+__email__  = "tusharseth93@gmail.com"
+
 import pandas as pd
 import time
 
